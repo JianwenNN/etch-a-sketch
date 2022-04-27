@@ -10,3 +10,10 @@ for (let i = 0; i < num*num; i++) {
     container.appendChild(grid);
 }
 
+const items = document.querySelectorAll('.grid');
+items.forEach(item => item.addEventListener('mouseover', draw));
+
+//function for drawing
+function draw(e) {
+    e.target.style.backgroundColor = 'black';
+}
