@@ -1,5 +1,5 @@
 # etch-a-sketch
- -Prompt to ask for a number n
+ -Prompt to ask for a number n <br>
  -Create a webpage with a n x n grid of square divs
  -set up button removes existing grids
  -hovering over a gird leaves behind pixelated trail, with a random color
