@@ -1,17 +1,61 @@
-#container {
+.container {
     border-style: double;
     border-color: black;
     display: flex;
     flex-wrap: wrap;
     border-width: 2px;
+    max-width: 960px;
+    height: auto;
+    padding: 0;
 }
 
 .grid {
     border-style: solid;
     border-color: rgba(179, 179, 179, 0.73);
-    width: 5px;
-    height: 5px;
     border-width: 0.1px;
     box-sizing: border-box;
+    aspect-ratio: 1/1;
 }
 
+.p0 {
+    filter: brightness(100%);
+}
+
+.p1 {
+    filter: brightness(90%);
+}
+
+.p2 {
+    filter: brightness(80%);
+}
+
+.p3 {
+    filter: brightness(70%);
+}
+
+.p4 {
+    filter: brightness(60%);
+}
+.p5 {
+    filter: brightness(50%);
+}
+
+.p6 {
+    filter: brightness(40%);
+}
+
+.p7 {
+    filter: brightness(30%);
+}
+
+.p8 {
+    filter: brightness(20%);
+}
+
+.p9 {
+    filter: brightness(10%);
+}
+
+.p10 {
+    filter: brightness(0%);
+}
